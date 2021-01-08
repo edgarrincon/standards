@@ -1,14 +1,15 @@
 import React from "react";
 import HeroSection from "../../components/HeroSection/HeroSection";
-import { homeObjTwo, homeObjThree } from "./Data";
+import { homeObjThree } from "./Data";
+import ContactUs from "../../components/ContactUs/ContacUs";
 
-function ContanctsUs() {
+function ContanctsForm() {
   return (
     <>
-      <HeroSection {...homeObjTwo} />
+      <ContactUs />
       <HeroSection {...homeObjThree} />
     </>
   );
 }
 
-export default ContanctsUs;
+export default ContanctsForm;

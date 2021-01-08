@@ -4,7 +4,12 @@ import Home from "./pages/HomePage/Home";
 import Services from "./pages/Services/Services";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import MeetOdoo from "./pages/MeetOddo/MeetOddo";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
@@ -17,6 +22,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route path="/" exact component={Home} />
+        <Route path="/home" component={Home} />
         <Route path="/service" component={Services} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/contacts" component={ContanctsUs} />
@@ -37,6 +43,7 @@ function App() {
           }}
         />
       </Switch>
+      <Redirect to="/home" />
       <Footer />
     </Router>
   );
