@@ -5,12 +5,13 @@ export const homeObjOne = {
   topLine: "Odoo",
   headline: "Consultant",
   description:
-    "Get access to our exclusive diamond card that allows you to  send unlimited transactions without getting charged any fees",
+    "Manage Your Whole Business Using Time Management & Collaboration Tools, Reports, and More",
   buttonLabel: "Get Started",
   imgStart: "",
-  img: "images/svg-1.svg",
-  alt: "Credit Card",
-  linkTo: "./",
+  img:
+    "https://raw.githubusercontent.com/edgarrincon/standards/7ea7660fd8181baac402c92331cf7cc88cac086a/src/images/odooanalitic.svg",
+  alt: "odoo Consultant",
+  linkTo: "./contacts",
   buttonSize: "btn--wide",
   buttonColor: "yellow",
 };
