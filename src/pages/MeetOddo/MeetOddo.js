@@ -7,10 +7,6 @@ import "../../components/OdooVideo/OdooVideo.css";
 function MeetOdoo() {
   return (
     <>
-      <div className="title__video">
-        <h2 className>ODOO</h2>
-        <p>Enterprise resource planning (ERP)</p>
-      </div>
       <OdooVideo />
       <HeroSection {...homeObjOne} />
     </>

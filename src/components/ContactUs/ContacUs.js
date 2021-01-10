@@ -66,6 +66,8 @@ export default function ContactUs() {
                     name="message"
                   ></textarea>
                 </label>
+
+                <label>Choose Your Plan</label>
                 <Checkbox />
 
                 <button className="btn--wide yellow" type="submit">
@@ -75,9 +77,8 @@ export default function ContactUs() {
             </div>
             <div className="col">
               <div className="home__hero-img-wrapper">
-                <div className="home__hero-img"></div>
                 <img
-                  src="https://raw.githubusercontent.com/edgarrincon/standards/5533007b7c39fb4bd147c595ccf581ed5279f318/src/images/ecommerce.svg"
+                  src="https://raw.githubusercontent.com/edgarrincon/standards/dec24aa33ada14382e9dd16d2a2dd45e68c06da0/src/images/mail.svg"
                   alt="email"
                   className="home__hero-img"
                 />

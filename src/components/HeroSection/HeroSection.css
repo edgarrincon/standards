@@ -110,3 +110,9 @@ img {
     font-weight: 600;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .home__hero-section {
+    padding: 80px 0;
+  }
+}
