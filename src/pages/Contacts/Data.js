@@ -42,11 +42,12 @@ export const homeObjThree = {
     "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
   buttonLabel: "Start Now",
   imgStart: "start",
-  img: "images/svg-2.svg",
+  img:
+    "https://raw.githubusercontent.com/edgarrincon/standards/dec24aa33ada14382e9dd16d2a2dd45e68c06da0/src/images/mail.svg",
   alt: "Vault",
   linkTo: "./Products",
   buttonSize: "btn--wide",
-  buttonColor: "blue",
+  buttonColor: "yellow",
 };
 
 export const homeObjFour = {

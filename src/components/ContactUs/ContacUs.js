@@ -1,6 +1,8 @@
 import React from "react";
 import emailjs from "emailjs-com";
 import "./ContactUs.css";
+import "../HeroSection/HeroSection.css";
+import Checkbox from "../Checkbox/Checkbox";
 
 export default function ContactUs() {
   function sendEmail(e) {
@@ -33,33 +35,42 @@ export default function ContactUs() {
             <div className="col">
               <form className="contact-form" onSubmit={sendEmail}>
                 <h2>CONTACT US</h2>
+                <label>
+                  Name
+                  <input
+                    type="text"
+                    placeholder="Write your name here.."
+                    name="user_name"
+                  ></input>
+                </label>
+                <label>
+                  Email
+                  <input
+                    type="email"
+                    placeholder="Let us know how to contact you back.."
+                    name="user_email"
+                  ></input>
+                </label>
+                <label>
+                  Phone Number
+                  <input
+                    type="number"
+                    placeholder="Write your phone number here.."
+                    name="contact_number"
+                  ></input>
+                </label>
+                <label>
+                  Comments
+                  <textarea
+                    placeholder="What would you like to tell us.."
+                    name="message"
+                  ></textarea>
+                </label>
+                <Checkbox />
 
-                <input
-                  placeholder="Write your name here.."
-                  name="user_name"
-                ></input>
-
-                <input
-                  placeholder="Let us know how to contact you back.."
-                  name="user_email"
-                ></input>
-
-                <input
-                  placeholder="Write your phone number here.."
-                  name="contact_number"
-                ></input>
-
-                <input
-                  placeholder="What would you like to tell us.."
-                  name="message"
-                ></input>
-                <div className="checkbox">
-                  <input type="checkbox" name="html"></input>
-                  <input type="checkbox" name="css"></input>
-                  <input type="checkbox" name="js"></input>
-                </div>
-
-                <input className="boton" type="submit" value="Send" />
+                <button className="btn--wide yellow" type="submit">
+                  Send
+                </button>
               </form>
             </div>
             <div className="col">
