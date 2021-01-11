@@ -22,7 +22,6 @@ function App() {
       <Navbar />
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/home" component={Home} />
         <Route path="/service" component={Services} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/contacts" component={ContanctsUs} />
@@ -43,7 +42,7 @@ function App() {
           }}
         />
       </Switch>
-      <Redirect to="/home" />
+      <Redirect to="/" />
       <Footer />
     </Router>
   );
