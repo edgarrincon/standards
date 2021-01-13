@@ -118,6 +118,6 @@
   border: none;
 }
 .yellow:hover {
-  border-bottom: 4px solid #ff6584;
-  border-radius: 0px;
+  box-shadow: 0 1px 1px 1px #ff6584;
+  transition: all 0.2s ease-out;
 }

@@ -13,7 +13,7 @@
 }
 .contact-form input,
 textarea {
-  width: 95%;
+  width: 100%;
   margin: 12px 0;
   line-height: 2.5;
   color: #000034;
@@ -31,33 +31,23 @@ textarea:focus {
 
 .contact-form label {
   color: #ff6584;
-  margin-top: 4px;
-}
-.btn--wide {
-  padding: 12px 64px;
-  font-size: 20px;
-  border-radius: 4px;
-}
-
-.yellow {
-  background: #ffc928;
-  color: #000034;
-  border: none;
-  width: inherit;
-}
-.yellow:hover {
-  border-bottom: 4px solid #ff6584;
-  border-radius: 0px;
-}
-
-@media screen and (max-width: 820px) {
-  .btn--wide {
-    width: 100%;
-  }
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 @media screen and (max-width: 720px) {
   .contact-form {
     width: 100%;
+    padding: 24px 12px;
   }
+}
+
+.btn__box {
+  display: flex;
+  margin-top: 12px;
+  justify-content: center;
+}
+
+.btn__box button {
+  width: 100%;
 }

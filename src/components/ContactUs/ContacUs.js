@@ -3,6 +3,7 @@ import emailjs from "emailjs-com";
 import "./ContactUs.css";
 import "../HeroSection/HeroSection.css";
 import Checkbox from "../Checkbox/Checkbox";
+import "../Button/Button.css";
 
 export default function ContactUs() {
   function sendEmail(e) {
@@ -69,10 +70,11 @@ export default function ContactUs() {
 
                 <label>Choose Your Plan</label>
                 <Checkbox />
-
-                <button className="btn--wide yellow" type="submit">
-                  Send
-                </button>
+                <div className="btn__box">
+                  <button className="btn btn--wide yellow" type="submit">
+                    Send
+                  </button>
+                </div>
               </form>
             </div>
             <div className="col">

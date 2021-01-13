@@ -13,20 +13,17 @@ function Checkbox() {
               <span>Essential</span>
             </label>
             <br />
-            <br />
             <label className="switcher">
               <input type="checkbox" name="Professional" />
               <div className="switcher__indicator"></div>
               <span>Professional</span>
             </label>
             <br />
-            <br />
             <label className="switcher">
               <input type="checkbox" name="Standards" />
               <div className="switcher__indicator"></div>
               <span>Standards</span>
             </label>
-            <br />
             <br />
           </div>
         </div>

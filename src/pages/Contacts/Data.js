@@ -2,67 +2,48 @@ export const homeObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "Exclusive Access",
-  headline: "Unlimited Transactions with zero fees",
-  description:
-    "Get access to our exclusive diamond card that allows you to  send unlimited transactions without getting charged any fees",
-  buttonLabel: "Get Started",
-  imgStart: "",
+  topLine: "about us",
+  headline: "Edgar Rincón Morán",
+  description: "Web Developer & CEO Standards Apps",
+  buttonLabel: "Meet Edgar",
+  imgStart: "start",
   img:
-    "https://raw.githubusercontent.com/edgarrincon/standards/dec24aa33ada14382e9dd16d2a2dd45e68c06da0/src/images/mail.svg",
-  alt: "Credit Card",
+    "https://github.com/edgarrincon/standards/blob/main/src/images/EdgarCapitolio.jpg?raw=true",
+  alt: "Edgar Rincon",
   linkTo: "./",
   buttonSize: "btn--wide",
   buttonColor: "yellow",
 };
 
 export const homeObjTwo = {
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: "100% SECURE",
-  headline: "Stay protected 24/7 anywhere anytime",
-  description:
-    "We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime",
-  buttonLabel: "Learn More",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "about us",
+  headline: "Victor Quintero",
+  description: "Web Developer & Cofunder Standards Apps",
+  buttonLabel: "Meet Victor",
   imgStart: "",
-  img: "images/svg-5.svg",
-  alt: "Vault",
+  img:
+    "https://github.com/edgarrincon/standards/blob/main/src/images/el-triste.jpg?raw=true",
+  alt: "Victor Quintero",
   linkTo: "./",
   buttonSize: "btn--wide",
   buttonColor: "yellow",
 };
-
-export const homeObjThree = {
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
-  topLine: "EASY SETUP",
-  headline: "Super fast and simple onboarding process",
-  description:
-    "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
-  buttonLabel: "Start Now",
-  imgStart: "start",
-  img:
-    "https://raw.githubusercontent.com/edgarrincon/standards/dec24aa33ada14382e9dd16d2a2dd45e68c06da0/src/images/mail.svg",
-  alt: "Vault",
-  linkTo: "./Products",
-  buttonSize: "btn--wide",
-  buttonColor: "yellow",
-};
-
-export const homeObjFour = {
+export const homeObjTheree = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "DATA ANALYTICS",
-  headline: "Every transaction is stored on our secure cloud database",
+  topLine: "about us",
+  headline: "Standards Apps",
   description:
-    "Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.",
-  buttonLabel: "Sign Up Now",
+    "The pyramids were the first standards buildings, they are simple, efficient, and still there ; )",
+  buttonLabel: "Take a look",
   imgStart: "start",
-  img: "images/svg-1.svg",
-  alt: "Vault",
+  img:
+    "https://github.com/edgarrincon/standards/blob/main/src/images/logo.png?raw=true",
+  alt: "Edgar Rincon",
   linkTo: "./",
   buttonSize: "btn--wide",
   buttonColor: "yellow",
