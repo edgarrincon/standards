@@ -10,7 +10,7 @@ export const homeObjOne = {
   img:
     "https://github.com/edgarrincon/standards/blob/main/src/images/EdgarCapitolio.jpg?raw=true",
   alt: "Edgar Rincon",
-  linkTo: "./",
+  linkTo: "./edgar",
   buttonSize: "btn--wide",
   buttonColor: "yellow",
 };
@@ -27,7 +27,7 @@ export const homeObjTwo = {
   img:
     "https://github.com/edgarrincon/standards/blob/main/src/images/el-triste.jpg?raw=true",
   alt: "Victor Quintero",
-  linkTo: "./",
+  linkTo: "./victor",
   buttonSize: "btn--wide",
   buttonColor: "yellow",
 };

@@ -10,7 +10,7 @@ export const homeObjOne = {
   img:
     "https://github.com/edgarrincon/standards/blob/main/src/images/lacumbre.png?raw=true",
   alt: "LaCumbre",
-  linkTo: "./",
+  linkTo: "./lacumbre",
   buttonSize: "btn--wide",
   buttonColor: "yellow",
 };
@@ -27,7 +27,7 @@ export const homeObjTwo = {
   img:
     "https://github.com/edgarrincon/standards/blob/main/src/images/pisodeportivo.png?raw=true",
   alt: "Piso Deportivo",
-  linkTo: "./",
+  linkTo: "./piso",
   buttonSize: "btn--wide",
   buttonColor: "yellow",
 };
@@ -44,7 +44,7 @@ export const homeObjThree = {
   img:
     "https://github.com/edgarrincon/standards/blob/main/src/images/lacumbre.png?raw=true",
   alt: "LaCumbre",
-  linkTo: "./",
+  linkTo: "./lacumbre",
   buttonSize: "btn--wide",
   buttonColor: "yellow",
 };

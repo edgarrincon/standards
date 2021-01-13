@@ -10,19 +10,19 @@ function Checkbox() {
             <label className="switcher">
               <input type="checkbox" name="Essential" />
               <div className="switcher__indicator"></div>
-              <span>Essential</span>
+              <span>Essential: 99 (USD)</span>
             </label>
             <br />
             <label className="switcher">
               <input type="checkbox" name="Professional" />
               <div className="switcher__indicator"></div>
-              <span>Professional</span>
+              <span>Professional: 169 (USD)</span>
             </label>
             <br />
             <label className="switcher">
               <input type="checkbox" name="Standards" />
               <div className="switcher__indicator"></div>
-              <span>Standards</span>
+              <span>Standards: 299 (USD)</span>
             </label>
             <br />
           </div>

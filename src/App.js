@@ -41,6 +41,34 @@ function App() {
             return null;
           }}
         />
+        <Route
+          path="/edgar"
+          component={() => {
+            window.location.href = "https://edgarrincon.github.io";
+            return null;
+          }}
+        />
+        <Route
+          path="/victor"
+          component={() => {
+            window.location.href = "https://victorquintero05.github.io/";
+            return null;
+          }}
+        />
+        <Route
+          path="/lacumbre"
+          component={() => {
+            window.location.href = "https://lacumbre.shop/";
+            return null;
+          }}
+        />
+        <Route
+          path="/piso"
+          component={() => {
+            window.location.href = "http://pisodeportivo.rf.gd/";
+            return null;
+          }}
+        />
       </Switch>
       <Redirect to="/" />
       <Footer />

@@ -42,6 +42,7 @@ export default function ContactUs() {
                     type="text"
                     placeholder="Write your name here.."
                     name="user_name"
+                    required
                   ></input>
                 </label>
                 <label>
@@ -50,6 +51,7 @@ export default function ContactUs() {
                     type="email"
                     placeholder="Let us know how to contact you back.."
                     name="user_email"
+                    required
                   ></input>
                 </label>
                 <label>
@@ -58,6 +60,7 @@ export default function ContactUs() {
                     type="number"
                     placeholder="Write your phone number here.."
                     name="contact_number"
+                    required
                   ></input>
                 </label>
                 <label>
@@ -68,7 +71,7 @@ export default function ContactUs() {
                   ></textarea>
                 </label>
 
-                <label>Choose Your Plan</label>
+                <label>Choose your plan (can be two as well)</label>
                 <Checkbox />
                 <div className="btn__box">
                   <button className="btn btn--wide yellow" type="submit">
