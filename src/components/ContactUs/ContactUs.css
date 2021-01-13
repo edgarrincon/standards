@@ -2,7 +2,7 @@
   width: 80%;
   height: 650px;
   background: #000034;
-  border-radius: 8px;
+  border-radius: 2px;
   box-shadow: 0 0 3px 3px #000034;
   padding: 2rem;
   margin: auto;
@@ -21,7 +21,7 @@ textarea {
   outline: none;
   border: 0;
   transition: all 0.3s;
-  border-radius: 4px;
+  border-radius: 1px;
   padding-left: 6px;
 }
 .contact-form input:focus,
@@ -37,8 +37,10 @@ textarea:focus {
 
 @media screen and (max-width: 720px) {
   .contact-form {
-    width: 100%;
-    padding: 24px 12px;
+    width: 120%;
+    padding: 24px 16px;
+    position: relative;
+    left: -10%;
   }
 }
 
