@@ -71,7 +71,7 @@ export default function ContactUs() {
                   ></textarea>
                 </label>
 
-                <label>Choose your plan (can be two as well)</label>
+                <div className="top-line">Choose your plan</div>
                 <Checkbox />
                 <div className="btn__box">
                   <button className="btn btn--wide yellow" type="submit">

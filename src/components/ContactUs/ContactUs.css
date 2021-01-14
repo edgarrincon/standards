@@ -1,11 +1,12 @@
 .contact-form {
   width: 80%;
-  height: 650px;
   background: #000034;
   border-radius: 2px;
   box-shadow: 0 0 3px 3px #000034;
   padding: 2rem;
-  margin: auto;
+  margin: auto 0;
+  position: relative;
+  top: -40px;
 }
 
 .contact-form h2 {
@@ -15,7 +16,7 @@
 textarea {
   width: 100%;
   margin: 12px 0;
-  line-height: 2.5;
+  line-height: 3;
   color: #000034;
   background: #ffffff;
   outline: none;
@@ -30,17 +31,23 @@ textarea:focus {
 }
 
 .contact-form label {
-  color: #ff6584;
+  color: #ffffff;
   margin-top: 12px;
   margin-bottom: 12px;
+}
+
+.contact-form .top-line {
+  margin-top: 9px;
+  margin-bottom: 3px;
 }
 
 @media screen and (max-width: 720px) {
   .contact-form {
     width: 120%;
-    padding: 24px 16px;
+    padding: 24px 18px;
     position: relative;
     left: -10%;
+    top: 0;
   }
 }
 
