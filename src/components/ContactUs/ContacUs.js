@@ -19,6 +19,7 @@ export default function ContactUs() {
           console.log(error.text);
         }
       );
+    alert("Thanks!");
     e.target.reset();
   }
 
