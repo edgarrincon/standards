@@ -69,6 +69,28 @@ function App() {
             return null;
           }}
         />
+        <Route
+          path="/youtube"
+          component={() => {
+            window.location.href =
+              "https://www.youtube.com/channel/UC2i9al-U5TXgESM5Zg2RQWQ";
+            return null;
+          }}
+        />
+        <Route
+          path="/instagram"
+          component={() => {
+            window.location.href = "https://www.instagram.com/standardsapps/";
+            return null;
+          }}
+        />
+        <Route
+          path="/twitter"
+          component={() => {
+            window.location.href = "https://twitter.com/standardsapps";
+            return null;
+          }}
+        />
       </Switch>
       <Redirect to="/" />
       <Footer />

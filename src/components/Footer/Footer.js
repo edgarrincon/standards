@@ -1,13 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaYoutube,
-  FaTwitter,
-  FaLinkedin,
-} from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaYoutube, FaTwitter } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -18,32 +12,12 @@ function Footer() {
             <h2>About Us</h2>
             <Link to="/contacs">How it works</Link>
             <Link to="/">Testimonials</Link>
-            <Link to="/">Careers</Link>
-            <Link to="/">Investors</Link>
             <Link to="/">Terms of Service</Link>
           </div>
           <div className="footer-link-items">
             <h2>Contact Us</h2>
-            <Link to="/">Contact</Link>
+            <Link to="/contacs">Contact</Link>
             <Link to="/">Support</Link>
-            <Link to="/">Destinations</Link>
-            <Link to="/">Sponsorships</Link>
-          </div>
-        </div>
-        <div className="footer-link-wrapper">
-          <div className="footer-link-items">
-            <h2>Videos</h2>
-            <Link to="/">Submit Video</Link>
-            <Link to="/">Ambassadors</Link>
-            <Link to="/">Agency</Link>
-            <Link to="/">Influencer</Link>
-          </div>
-          <div className="footer-link-items">
-            <h2>Social Media</h2>
-            <Link to="/">Instagram</Link>
-            <Link to="/">Facebook</Link>
-            <Link to="/">Youtube</Link>
-            <Link to="/">Twitter</Link>
           </div>
         </div>
       </div>
@@ -51,7 +25,7 @@ function Footer() {
         <div className="social-media-wrap">
           <div className="footer-logo">
             <Link to="/" className="social-logo">
-              Standards Apps
+              <h2>Standards Apps</h2>
             </Link>
           </div>
           <small className="website-rights">© 2020</small>
@@ -66,7 +40,7 @@ function Footer() {
             </Link>
             <Link
               className="social-icon-link"
-              to="/"
+              to="/instagram"
               target="_blank"
               aria-label="Instagram"
             >
@@ -74,9 +48,7 @@ function Footer() {
             </Link>
             <Link
               className="social-icon-link"
-              to={
-                "//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber"
-              }
+              to="/youtube"
               target="_blank"
               aria-label="Youtube"
             >
@@ -84,19 +56,11 @@ function Footer() {
             </Link>
             <Link
               className="social-icon-link"
-              to="/"
+              to="/twitter"
               target="_blank"
               aria-label="Twitter"
             >
               <FaTwitter />
-            </Link>
-            <Link
-              className="social-icon-link"
-              to="/"
-              target="_blank"
-              aria-label="LinkedIn"
-            >
-              <FaLinkedin />
             </Link>
           </div>
         </div>
