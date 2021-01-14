@@ -41,7 +41,6 @@ function Footer() {
             <Link
               className="social-icon-link"
               to="/instagram"
-              target="_blank"
               aria-label="Instagram"
             >
               <FaInstagram />
@@ -49,7 +48,6 @@ function Footer() {
             <Link
               className="social-icon-link"
               to="/youtube"
-              target="_blank"
               aria-label="Youtube"
             >
               <FaYoutube />
@@ -57,7 +55,6 @@ function Footer() {
             <Link
               className="social-icon-link"
               to="/twitter"
-              target="_blank"
               aria-label="Twitter"
             >
               <FaTwitter />
