@@ -13,9 +13,11 @@
   justify-content: center;
   text-align: center;
   color: #000034;
-  font-size: 48px;
 }
 
+.title__video h2 {
+  font-size: 48px;
+}
 .title__video p {
   font-size: 18px;
 }

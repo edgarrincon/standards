@@ -19,7 +19,7 @@ export default function ContactUs() {
           console.log(error.text);
         }
       );
-    alert("Thank you! we'll keep in touch");
+    alert("🚀 Thank you! we'll keep in touch 🚀");
     e.target.reset();
   }
 

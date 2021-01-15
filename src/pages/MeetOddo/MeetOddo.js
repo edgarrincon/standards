@@ -8,6 +8,10 @@ import Pricing from "../../components/Pricing/Pricing";
 function MeetOdoo() {
   return (
     <>
+      <div className="title__video">
+        <h2>Odoo</h2>
+        <p>Enterprise resource planning (ERP)</p>
+      </div>
       <OdooVideo />
       <HeroSection {...homeObjOne} />
       <Pricing />
