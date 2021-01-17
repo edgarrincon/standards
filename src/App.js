@@ -91,7 +91,6 @@ function App() {
             return null;
           }}
         />
-        <Route path="*" exact component={Home} />
       </Switch>
       <Redirect to="/" />
       <Footer />
