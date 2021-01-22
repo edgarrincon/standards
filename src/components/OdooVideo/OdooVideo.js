@@ -3,11 +3,15 @@ import "../../App.css";
 import "./OdooVideo.css";
 import YouTube from "react-youtube";
 
+window.YTConfig = {
+  host: "https://www.youtube.com",
+};
+
 class VideoOdoo extends React.Component {
   render() {
     const opts = {
-      height: "390",
-      width: "640",
+      height: "400",
+      width: "650",
       playerVars: {
         autoplay: 1,
       },
