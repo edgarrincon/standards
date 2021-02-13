@@ -9,7 +9,8 @@ function Video() {
       <video src={BgVideo} autoPlay loop muted />
       <div className="text-over-video">
         <h1>Standards Apps</h1>
-        <p> Web & Software Development</p>
+        <p>Web Development &</p>
+        <p>Software Applications</p>
       </div>
     </div>
   );
