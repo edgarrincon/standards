@@ -30,7 +30,7 @@
 .text-over-video > p {
   margin-top: 8px;
   color: #fff;
-  font-size: 2rem;
+  font-size: 18px;
   text-align: center;
   text-shadow: 1.5px 1.5px #000034;
 }
@@ -40,7 +40,7 @@
     font-size: 4rem;
   }
   .text-over-video > p {
-    font-size: 1.5rem;
+    font-size: 16px;
   }
 }
 
@@ -51,6 +51,6 @@
   }
 
   .text-over-video > p {
-    font-size: 1rem;
+    font-size: 14px;
   }
 }
