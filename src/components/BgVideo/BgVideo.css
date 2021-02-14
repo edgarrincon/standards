@@ -19,28 +19,25 @@
 
 .text-over-video > h1 {
   color: #fff;
-  font-size: 6rem;
+  font-size: 5rem;
   margin-top: -80px;
   border: 1px solid #fff;
+  box-shadow: 1px 1px #000034;
   padding: 0 15px 25px 15px;
   line-height: 1;
-  text-shadow: 2px 2px #000034;
+  text-shadow: 2px 1px 1px #000034;
 }
 
 .text-over-video > p {
   margin-top: 8px;
   color: #fff;
-  font-size: 18px;
   text-align: center;
-  text-shadow: 1.5px 1.5px #000034;
+  text-shadow: 2px 1px 1px #000034;
 }
 
 @media screen and (max-width: 960px) {
   .text-over-video > h1 {
     font-size: 4rem;
-  }
-  .text-over-video > p {
-    font-size: 16px;
   }
 }
 
@@ -48,9 +45,5 @@
   .text-over-video > h1 {
     font-size: 3rem;
     padding: 0 12px 18px 12px;
-  }
-
-  .text-over-video > p {
-    font-size: 14px;
   }
 }

@@ -3,7 +3,7 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
   topLine: "our services",
-  headline: "Web software and application development",
+  headline: "Web development and software applications",
   description: "using the latest tools and technologies",
   buttonLabel: "Take a look",
   imgStart: "",
