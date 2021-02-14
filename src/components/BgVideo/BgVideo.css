@@ -26,13 +26,14 @@
   padding: 0 15px 25px 15px;
   line-height: 1;
   text-shadow: 2px 1px 1px #000034;
+  margin-bottom: 12px;
 }
 
-.text-over-video > p {
+.text-over-video > h4 {
   margin-top: 8px;
   color: #fff;
   text-align: center;
-  text-shadow: 2px 1px 1px #000034;
+  text-shadow: 1.5px 1.5px 1.5px #000034;
 }
 
 @media screen and (max-width: 960px) {
