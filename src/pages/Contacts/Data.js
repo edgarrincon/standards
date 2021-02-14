@@ -25,7 +25,7 @@ export const homeObjTwo = {
   buttonLabel: "Meet Victor",
   imgStart: "",
   img:
-    "https://github.com/edgarrincon/standards/blob/main/src/images/el-triste.jpg?raw=true",
+    "https://github.com/edgarrincon/standards/blob/main/src/images/victorLasVegas.jpg?raw=true",
   alt: "Victor Quintero",
   linkTo: "./victor",
   buttonSize: "btn--wide",

@@ -20,7 +20,7 @@ class VideoOdoo extends React.Component {
     return (
       <YouTube
         containerClassName={"ytvideo"}
-        videoId="pSZaXjFrgBE"
+        videoId="CP96yVnXNrY"
         opts={opts}
         onReady={this._onReady}
       />
