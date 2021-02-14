@@ -11,7 +11,7 @@ export const homeObjOne = {
   img:
     "https://raw.githubusercontent.com/edgarrincon/standards/a61bf6379e17a1ee2ba77cb2c432a756d8e1a0f4/src/images/webpage.svg",
   alt: "Web Page",
-  linkTo: "./service",
+  linkTo: "./contacts",
   buttonSize: "btn--wide",
   buttonColor: "yellow",
 };
@@ -27,7 +27,7 @@ export const homeObjTwo = {
   img:
     "https://raw.githubusercontent.com/edgarrincon/standards/a61bf6379e17a1ee2ba77cb2c432a756d8e1a0f4/src/images/needs.svg",
   alt: "accordin needs",
-  linkTo: "./contacts",
+  linkTo: "./portfolio",
   buttonSize: "btn--wide",
   buttonColor: "yellow",
 };
@@ -40,7 +40,7 @@ export const homeObjThree = {
   headline: "eCommerce with integration platform updated 24/7",
   description:
     "Sync Odoo transactions automatically track sales, expenses, deposits, and payments",
-  buttonLabel: "Learn More",
+  buttonLabel: "Services",
   imgStart: "",
   img:
     "https://raw.githubusercontent.com/edgarrincon/standards/5533007b7c39fb4bd147c595ccf581ed5279f318/src/images/ecommerce.svg",
@@ -75,7 +75,7 @@ export const homeObjFive = {
   topLine: "have a special request?",
   headline: "Let's know your needs",
   description: "We will likely give you a hand",
-  buttonLabel: "Contact Us",
+  buttonLabel: "Tell Us",
   imgStart: "",
   img:
     "https://raw.githubusercontent.com/edgarrincon/standards/8ff24a727411b966c259bb8edf2838dd690e6504/src/images/anyquestion.svg",

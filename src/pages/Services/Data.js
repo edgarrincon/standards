@@ -57,7 +57,7 @@ export const homeObjFour = {
   headline: "Blogs, portfolios,  online booking, magazines, and more",
   description:
     "WordPress is, by far, the most popular open source Content Management System (CMS), used by approximately 75 million websites",
-  buttonLabel: "Contact Us",
+  buttonLabel: "Choose a plan",
   imgStart: "start",
   img:
     "https://raw.githubusercontent.com/edgarrincon/standards/9bc52b745ab60b2a5cd004a0d5cd8bad7d3be095/src/images/wordpress.svg",
@@ -110,7 +110,7 @@ export const homeObjSeven = {
   topLine: "LOOKING A COMMUNITY MANAGER?",
   headline: "Let's know Piso 4 AGENCY",
   description: "Increase your brand visibility with Social Media strategies",
-  buttonLabel: "meets Piso4",
+  buttonLabel: "go to Piso4",
   imgStart: "",
   img:
     "https://github.com/edgarrincon/standards/blob/main/src/images/piso4.jpg?raw=true",
