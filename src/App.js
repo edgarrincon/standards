@@ -58,7 +58,7 @@ function App() {
         <Route
           path="/lacumbre"
           component={() => {
-            window.location.href = "https://lacumbre.shop/";
+            window.location.href = "https://lacumbremarket.com/";
             return null;
           }}
         />
