@@ -10,7 +10,7 @@ export default function ContactUs() {
     e.preventDefault();
 
     emailjs
-      .sendForm("GMAIL", "TEMPLATE1", e.target, "user_9YWJ4QhWhzENaOQHisOv5")
+      .sendForm("GMAIL", "template1", e.target, "user_CSUE5gvhSIdrsTOBLIBOa")
       .then(
         (result) => {
           console.log(result.text);
