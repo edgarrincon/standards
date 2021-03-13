@@ -1,5 +1,5 @@
 import React from "react";
-import { init } from "emailjs-com";
+import emailjs from "emailjs-com";
 import "./ContactUs.css";
 import "../HeroSection/HeroSection.css";
 import Checkbox from "../Checkbox/Checkbox";
@@ -10,12 +10,7 @@ export default function ContactUs() {
     e.preventDefault();
 
     emailjs
-      .sendForm(
-        "Gmail",
-        "template1",
-        e.target,
-        init("user_CSUE5gvhSIdrsTOBLIBOa")
-      )
+      .sendForm("GMAIL", "TEMPLATE1", e.target, "user_CSUE5gvhSIdrsTOBLIBOa")
       .then(
         (result) => {
           console.log(result.text);
@@ -24,7 +19,7 @@ export default function ContactUs() {
           console.log(error.text);
         }
       );
-    alert("🚀 Thank you! we'll keep in touch 🚀");
+    alert("🚀 Thank you! we will keep in touch 🚀");
     e.target.reset();
   }
 
