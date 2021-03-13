@@ -1,5 +1,5 @@
 import React from "react";
-import emailjs from "emailjs-com";
+import { init } from "emailjs-com";
 import "./ContactUs.css";
 import "../HeroSection/HeroSection.css";
 import Checkbox from "../Checkbox/Checkbox";
@@ -10,7 +10,12 @@ export default function ContactUs() {
     e.preventDefault();
 
     emailjs
-      .sendForm("Gmail", "template1", e.target, "user_CSUE5gvhSIdrsTOBLIBOa")
+      .sendForm(
+        "Gmail",
+        "template1",
+        e.target,
+        init("user_CSUE5gvhSIdrsTOBLIBOa")
+      )
       .then(
         (result) => {
           console.log(result.text);
